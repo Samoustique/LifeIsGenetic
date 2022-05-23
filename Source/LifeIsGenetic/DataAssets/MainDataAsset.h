@@ -19,9 +19,6 @@ public:
 		float DayInSec;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Global")
-		bool ShowDebugOnScreen;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Global")
 		FVector WorldPosition;
 
 	// GenerationManager
