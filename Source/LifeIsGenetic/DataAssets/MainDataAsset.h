@@ -65,10 +65,10 @@ public:
 		float DefenseMinusFactor;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Individual > Genes")
-		int DefenseMinusClampMin;
+		int DefenseClampMin;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Individual > Genes")
-		int DefenseMinusClampMax;
+		int DefenseClampMax;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Individual > Genes")
 		float AttackPlusFactor;
@@ -77,40 +77,28 @@ public:
 		float AttackMinusFactor;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Individual > Genes")
-		int AttackMinusClampMin;
+		int AttackClampMin;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Individual > Genes")
-		int AttackMinusClampMax;
+		int AttackClampMax;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Individual > Genes")
 		float SpeedPlusFactor;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Individual > Genes")
-		float SpeedPlusClampMin;
+		float SpeedClampMin;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Individual > Genes")
-		float SpeedPlusClampMax;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Individual > Genes")
-		float SpeedMinusClampMin;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Individual > Genes")
-		float SpeedMinusClampMax;
+		float SpeedClampMax;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Individual > Genes")
 		float PoopPlusFactor;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Individual > Genes")
-		float PoopPlusClampMin;
+		float PoopClampMin;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Individual > Genes")
-		float PoopPlusClampMax;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Individual > Genes")
-		float PoopMinusClampMin;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Individual > Genes")
-		float PoopMinusClampMax;
+		float PoopClampMax;
 
 	// WeatherManager
 
