@@ -21,6 +21,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Global")
 		FVector WorldPosition;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Global")
+		bool UseMock;
+
 	// GenerationManager
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "GenerationManager")
@@ -40,6 +43,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "GenerationManager")
 		float SharpedTeethMutationRatio;
+
 
 	// Individual
 
@@ -127,4 +131,12 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Poop")
 		TArray<int> WaterPerSteps;
+
+	// Mock
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Mock")
+		TArray<FVector> MockIndividualGenes;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Mock")
+		TArray<FVector> MockPoopPositions;
 };
