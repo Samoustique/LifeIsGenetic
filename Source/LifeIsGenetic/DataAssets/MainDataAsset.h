@@ -22,6 +22,9 @@ public:
 		FVector WorldPosition;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Global")
+		bool ActivateWeather;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Global")
 		bool UseMock;
 
 	// GenerationManager
